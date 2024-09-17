@@ -1,6 +1,6 @@
-# Traffic Management
+# Gestor de Trafego
 
-Traffic Management é uma aplicação web desenvolvida para visualizar e gerenciar dados de equipamentos em uma operação florestal. A aplicação exibe posições e estados dos equipamentos em um mapa, permite visualizar o histórico de estados e fornece insights sobre a produtividade e ganho dos equipamentos.
+Gestor de Trafego é uma aplicação web desenvolvida para visualizar e gerenciar dados de equipamentos em uma operação florestal. A aplicação exibe posições e estados dos equipamentos em um mapa, permite visualizar o histórico de estados e fornece insights sobre a produtividade e ganho dos equipamentos.
 
 ## Tecnologias Utilizadas
 
@@ -36,6 +36,8 @@ Para rodar o projeto localmente, siga os passos abaixo:
 - **`src/`**: Contém o código fonte da aplicação.
   - **`components/`**: Componentes React utilizados na aplicação.
   - **`utils/`**: Funções utilitárias.
+  - **`tests/`**: Arquivos para testes.
+  - **`styles/`**: Arquivos de estilo.
   - **`App.jsx`**: Componente principal da aplicação.
 - **`public/`**: Arquivos estáticos e configuração do projeto.
 - **`data/`**: Arquivos JSON com dados dos equipamentos (não incluído no repositório).
@@ -54,10 +56,6 @@ Os testes são realizados usando Jest. Para rodar os testes, utilize o comando:
     ```bash
     npm run test
     ```
-
-## Documentação
-
-Para mais informações sobre o projeto, acesse a página [Sobre o projeto](src/pages/about.html), onde você encontrará detalhes sobre o desenvolvimento, imagens e GIFs do código.
 
 ## Contato
 
